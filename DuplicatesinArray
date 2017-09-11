@@ -1,0 +1,15 @@
+int[] orr={3,5,2,3,4,2,7,1,5,4,4,2,9};
+		Arrays.sort(orr);
+		//System.out.print(Arrays.toString(orr)+" ");
+		int i=0,j=0,dup=0;
+		while(orr!=null &&j<orr.length-1)
+		{
+			i=orr[j];
+			if(i==orr[j+1])
+			{
+				dup++;
+				System.out.println(i+" is duplicate ");
+			}
+			j++;
+			
+		}
