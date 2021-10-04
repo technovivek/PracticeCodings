@@ -12,7 +12,7 @@ public class Factors{
             count++;
             i++;
         }
-        System.out.println("Factors of"+num+"are"+count);
+        System.out.println("Factors of"+num+"are-------"+count);
      }
      
 }
